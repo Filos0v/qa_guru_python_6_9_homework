@@ -28,3 +28,4 @@ def test_lambda_steps():
 
     with allure.step('Ищем номер 77'):
         s(by.partial_text('#77')).should(be.visible)
+

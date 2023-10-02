@@ -5,6 +5,7 @@ from selene.support.conditions import be
 from selene.support.shared import browser
 
 
+
 @allure.story('selene')
 @allure.label('owner', 'Filos0v')
 @allure.tag('web')
